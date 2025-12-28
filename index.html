@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Digital | حلول الإعلانات المدفوعة</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>نساعدك على زيادة المبيعات والعملاء</h1>
+      <p>
+        Elite Digital وكالة تسويق رقمي متخصصة في إدارة وتحسين الإعلانات المدفوعة
+        على Google ومنصات التواصل الاجتماعي في السعودية ودول الخليج.
+      </p>
+      <a href="#lead-form" class="primary-btn">احصل على استشارة مجانية</a>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section class="services">
+    <div class="container">
+      <h2>ماذا نقدم؟</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>إعلانات Google</h3>
+          <p>استهداف عملاء يبحثون عن خدماتك وجاهزون للشراء.</p>
+        </div>
+        <div class="service-card">
+          <h3>إعلانات السوشيال ميديا</h3>
+          <p>حملات مدفوعة على فيسبوك، إنستغرام، وسناب شات.</p>
+        </div>
+        <div class="service-card">
+          <h3>تحسين الأداء</h3>
+          <p>تحليل النتائج وتحسين الإعلانات لتحقيق أعلى عائد.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Form -->
+  <section class="form-section" id="lead-form">
+    <div class="container">
+      <h2>تواصل معنا</h2>
+      <p>املأ النموذج وسنقوم بالتواصل معك خلال 24 ساعة</p>
+
+      <form name="elite-leads" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="elite-leads" />
+
+        <input type="text" name="name" placeholder="الاسم الكامل" required />
+        <input type="tel" name="phone" placeholder="رقم الهاتف" required />
+        <input type="email" name="email" placeholder="البريد الإلكتروني" />
+        <textarea name="message" placeholder="حدثنا عن مشروعك"></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+    href="https://wa.me/966XXXXXXXXX"
+    class="whatsapp-btn"
+    target="_blank"
+    aria-label="تواصل معنا عبر واتساب"
+  >
+    واتساب
+  </a>
+
+  <footer>
+    <p>© 2025 Elite Digital Solutions</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
